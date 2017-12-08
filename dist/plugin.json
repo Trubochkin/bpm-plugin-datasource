@@ -1,0 +1,28 @@
+{
+  "name": "DatasourceTest1",
+  "id": "db-test1-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "annotations": false,
+  "alerting": false,
+
+  "info": {
+    "description": "Datasource plugin for connect to data base server",
+    "author": {
+      "name": "Viravix Group OU",
+      "url": ""
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "version": "1.0.0",
+    "updated": "04.10.2017"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.x.x",
+    "plugins": []
+  }
+}
